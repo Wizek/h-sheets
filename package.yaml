@@ -1,0 +1,41 @@
+name:                h-sheet
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/Wizek/h-sheet#readme
+license:             BSD3
+author:              Milan Nagy
+maintainer:          wizek@wizek.net
+copyright:           Milan Nagy
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - reflex
+  - reflex-dom
+  - jsaddle
+  - jsaddle-warp
+
+default-extensions:
+  - CPP
+  - RankNTypes
+  - TupleSections
+  # - TypeApplications # ??
+  # - StandaloneDeriving # ?
+  - LambdaCase
+  - QuasiQuotes
+  - ViewPatterns
+  - TupleSections
+  - TemplateHaskell
+  - RecordWildCards
+  - OverloadedStrings
+  - ScopedTypeVariables
+  - PartialTypeSignatures
+
+
+executables:
+  h-sheet:
+    source-dirs:      src
+    main:             Main.hs
