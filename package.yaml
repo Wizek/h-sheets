@@ -16,6 +16,7 @@ dependencies:
   - reflex
   - reflex-dom
   - jsaddle
+  - text
   - jsaddle-warp
 
 default-extensions:
