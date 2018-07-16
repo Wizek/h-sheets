@@ -1,1 +1,6 @@
-All good (1 module, at 14:22:17)
+src/Main.hs:11:1: error:
+    The type signature for ‘a’ lacks an accompanying binding
+src/Main.hs:11:6: error:
+    Not in scope: type constructor or class ‘Map’
+src/Main.hs:11:32: error:
+    Not in scope: type constructor or class ‘Cell’

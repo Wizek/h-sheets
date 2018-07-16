@@ -28,5 +28,4 @@ executable h-sheet
     , reflex-dom
     , jsaddle
     , text
-    , jsaddle-warp
   default-language: Haskell2010

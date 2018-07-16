@@ -1,7 +1,7 @@
 { reflex-platform ? import ./nix/reflex-platform.nix } :
 let
 
-  haskellPackages = reflex-platform.ghc.override {
+  haskellPackages = reflex-platform.ghcjs.override {
     overrides = self: super: {
       # Comment below to disable haddocks generation
       # ghc = super.ghc // { withPackages = super.ghc.withHoogle; };

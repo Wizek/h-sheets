@@ -15,9 +15,10 @@ dependencies:
   - base >= 4.7 && < 5
   - reflex
   - reflex-dom
+  # - reflex-dom-core
   - jsaddle
   - text
-  - jsaddle-warp
+  # - jsaddle-warp
 
 default-extensions:
   - CPP
